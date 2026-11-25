@@ -83,3 +83,17 @@ docker stop wine-api && docker rm wine-api
 - `model.joblib` is the artifact which API loads at startup
 - FastAPI gives us Swagger UI automatically, so we can test `/predict` in the browser
 - Docker image contains code + dependencies + model, so it works same on any machine
+
+## Screenshots
+
+**GET /** — API is running
+
+![root](screenshots/01_root.png)
+
+**Swagger UI** (`/docs`)
+
+![docs](screenshots/02_docs.png)
+
+**POST /predict** from Swagger — class 2 wine is predicted correctly
+
+![predict](screenshots/03_predict.png)
