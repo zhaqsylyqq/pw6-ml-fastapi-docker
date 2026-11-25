@@ -97,3 +97,7 @@ docker stop wine-api && docker rm wine-api
 **POST /predict** from Swagger — class 2 wine is predicted correctly
 
 ![predict](screenshots/03_predict.png)
+
+**Docker** — image is built, container is running and API answers from the container
+
+![docker](screenshots/04_docker.png)
