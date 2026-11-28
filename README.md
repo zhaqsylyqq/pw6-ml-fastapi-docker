@@ -86,6 +86,12 @@ docker stop wine-api && docker rm wine-api
 
 ## Screenshots
 
+**Step 1–3. Local run** — training and API with uvicorn (without Docker)
+
+![local](screenshots/00_local_uvicorn.png)
+
+Screenshots below are taken from the API running **inside the Docker container** (step 6).
+
 **GET /** — API is running
 
 ![root](screenshots/01_root.png)
